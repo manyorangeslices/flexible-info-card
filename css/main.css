@@ -2,13 +2,48 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
-  background-color: #e2e2e2;
+  background-color: #ccc;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding-bottom: 0;
   margin: 1.5rem 0;
+}
+
+body {
+  flex-grow: 1;
+  margin: 0;
+}
+
+a {
+  font-size: 1.125rem;
+  padding: .5rem 1rem .6rem;
+  background-color: #444;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin: auto;
+
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+}
+
+p {
+  max-width: 25rem;
 }
